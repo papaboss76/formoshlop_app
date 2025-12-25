@@ -595,7 +595,7 @@ class="bg-transparent border border-gray-700 hover:bg-gray-800 text-white rounde
     data: {
       hexTokens: { 
         A: { pattern: /[а-яА-ЯІіЇїЄєҐґ0-9 \-]/ }, 
-        B: { pattern: /[а-яА-ЯІіЇїЄєҐґ ʼ]/, transform: v => v.toUpperCase() }
+        B: { pattern: /[а-яА-ЯІіЇїЄєҐґ '`ʼ']/, transform: v => v.toUpperCase() }
       },
 
       formData: {
